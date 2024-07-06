@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Smartphone XZ Pro",
+    "slug": "smartphone-xz-pro",
+    "description": "Experience the latest in smartphone technology with the Smartphone XZ Pro. Featuring a stunning display, advanced camera system, and blazing-fast performance.",
+    "excerpt": "Discover the future of mobile technology.",
+    "price": 999,
+    "tags": ["electronics", "smartphone", "technology"],
+    "thumbnail": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//106/MTA-26958309/infinix_infinix_zero_x_pro_-8-256_gb-d-_full01_y8i7lp.jpg",
+    "images": [
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//106/MTA-26958309/infinix_infinix_zero_x_pro_-8-256_gb-d-_full01_y8i7lp.jpg",
+      "https://thumb.viva.id/vivagadget/665x374/2024/06/12/6669cce949f3b-infinix-zero-x-pro-smartphone-gahar-dengan-kamera-utama-108-mp-ois-update-harga-terbaru-2024_.jpg"
+    ],
+    "createdAt": "2024-06-01T10:00:00.000Z",
+    "updatedAt": "2024-06-01T10:00:00.000Z"
+  },
+  {
+    "name": "Ultra HD Smart TV",
+    "slug": "ultra-hd-smart-tv",
+    "description": "Transform your viewing experience with the Ultra HD Smart TV. Immerse yourself in stunning 4K resolution and enjoy a range of smart features.",
+    "excerpt": "Bring the cinema to your living room.",
+    "price": 1499,
+    "tags": ["electronics", "television", "home entertainment"],
+    "thumbnail": "https://www.lg.com/content/dam/channel/wcms/id/images/tv/65un7300ptc_ati_eain_id_c/gallery/dm-01.jpg",
+    "images": [
+      "https://www.lg.com/content/dam/channel/wcms/id/images/tv/65un7300ptc_ati_eain_id_c/gallery/dm-01.jpg",
+      "https://static.retailworldvn.com/Products/Images/12158/305358/smart-tv-samsung-crystal-uhd-4k-65-inch-ua65cu7000-1.jpg"
+    ],
+    "createdAt": "2024-06-02T10:00:00.000Z",
+    "updatedAt": "2024-06-02T10:00:00.000Z"
+  },
+  {
+    "name": "Designer Sofa Set",
+    "slug": "designer-sofa-set",
+    "description": "Enhance your living space with the Designer Sofa Set. Crafted with luxurious materials and ergonomic design for ultimate comfort.",
+    "excerpt": "Elevate your home decor.",
+    "price": 2499,
+    "tags": ["furniture", "sofa", "living room"],
+    "thumbnail": "https://i0.wp.com/woodwoon.com/wp-content/uploads/2023/01/SOS0004-sofa-set-sofa-design-furniture-store-in-pakistan.webp?fit=1024%2C854&ssl=1",
+    "images": [
+      "https://i0.wp.com/woodwoon.com/wp-content/uploads/2023/01/SOS0004-sofa-set-sofa-design-furniture-store-in-pakistan.webp?fit=1024%2C854&ssl=1",
+      "https://woodwoon.com/wp-content/uploads/2023/01/CSS0003-corner-sofa-l-shape-sofa-set-furniture-store-in-pakistan-280x280.webp"
+    ],
+    "createdAt": "2024-06-03T10:00:00.000Z",
+    "updatedAt": "2024-06-03T10:00:00.000Z"
+  },
+  {
+    "name": "Gaming Laptop XYZ",
+    "slug": "gaming-laptop-xyz",
+    "description": "Unleash your gaming potential with the Gaming Laptop XYZ. Featuring high-performance hardware and cutting-edge graphics for immersive gameplay.",
+    "excerpt": "Level up your gaming experience.",
+    "price": 1999,
+    "tags": ["electronics", "laptop", "gaming"],
+    "thumbnail": "https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2020/08/10/820bf33ef398c75281333a1cd69760a8.jpg?quality=80&zoom=1&ssl=1",
+    "images": [
+      "https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2020/08/10/820bf33ef398c75281333a1cd69760a8.jpg?quality=80&zoom=1&ssl=1",
+      "https://new.malamal.com.bd/wp-content/uploads/2022/12/best-gaming-laptop-model-entry-header-opt.jpg"
+    ],
+    "createdAt": "2024-06-04T10:00:00.000Z",
+    "updatedAt": "2024-06-04T10:00:00.000Z"
+  },
+  {
+    "name": "Wooden Dining Table Set",
+    "slug": "wooden-dining-table-set",
+    "description": "Create memorable dining experiences with the Wooden Dining Table Set. Crafted from solid wood with elegant craftsmanship.",
+    "excerpt": "Perfect for family gatherings.",
+    "price": 1599,
+    "tags": ["furniture", "dining table", "dining room"],
+    "thumbnail": "https://cdn.decornation.in/wp-content/uploads/2020/03/solid-wood-dining-table-2.jpg",
+    "images": [
+      "https://cdn.decornation.in/wp-content/uploads/2020/03/solid-wood-dining-table-2.jpg",
+      "https://i5.walmartimages.com/seo/Churanty-6-Pieces-Kitchen-Upholstered-Dining-Table-Set-for-6-with-Bench-Wooden-Rectangular-Dining-Table-and-4-Chairs-Espresso_46d8255a-4aae-4397-bbbb-4a2aaea4cd92.cf142c599fdc356645763b855c22fd36.jpeg"
+    ],
+    "createdAt": "2024-06-05T10:00:00.000Z",
+    "updatedAt": "2024-06-05T10:00:00.000Z"
+  },
+  {
+    "name": "Fitness Tracker Pro",
+    "slug": "fitness-tracker-pro",
+    "description": "Achieve your fitness goals with the Fitness Tracker Pro. Monitor your workouts, heart rate, and sleep patterns with advanced tracking features.",
+    "excerpt": "Stay motivated and healthy.",
+    "price": 199,
+    "tags": ["electronics", "fitness", "health"],
+    "thumbnail": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/91/MTA-161555131/no-brand_no-brand_full01.jpg",
+    "images": [
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/91/MTA-161555131/no-brand_no-brand_full01.jpg",
+      "https://celltronics.lk/wp-content/uploads/2022/07/SoundPEATS-Watch-PRO-1-1.jpg"
+    ],
+    "createdAt": "2024-06-06T10:00:00.000Z",
+    "updatedAt": "2024-06-06T10:00:00.000Z"
+  },
+  {
+    "name": "Modern Office Desk",
+    "slug": "modern-office-desk",
+    "description": "Enhance productivity with the Modern Office Desk. Sleek design with ample storage and integrated cable management for a clutter-free workspace.",
+    "excerpt": "Perfect for home offices.",
+    "price": 899,
+    "tags": ["furniture", "office desk", "workspace"],
+    "thumbnail": "https://www.migefurniture.com/wp-content/uploads/2019/05/3-3.jpg",
+    "images": [
+      "https://www.migefurniture.com/wp-content/uploads/2019/05/3-3.jpg",
+      "https://m.media-amazon.com/images/I/91fv+m63mML._AC_UF894,1000_QL80_.jpg"
+    ],
+    "createdAt": "2024-06-07T10:00:00.000Z",
+    "updatedAt": "2024-06-07T10:00:00.000Z"
+  },
+  {
+    "name": "Portable Bluetooth Speaker",
+    "slug": "portable-bluetooth-speaker",
+    "description": "Enjoy high-quality audio anywhere with the Portable Bluetooth Speaker. Compact and powerful with wireless connectivity for seamless music streaming.",
+    "excerpt": "Your music companion on-the-go.",
+    "price": 79,
+    "tags": ["electronics", "speaker", "audio"],
+    "thumbnail": "https://upload.jaknot.com/2022/10/images/products/662ba3/original/zealot-portable-bluetooth-speaker-s32.jpg",
+    "images": [
+      "https://upload.jaknot.com/2022/10/images/products/662ba3/original/zealot-portable-bluetooth-speaker-s32.jpg",
+      "https://upload.jaknot.com/2024/02/images/products/edf7ad/original/yodusso-speaker-portable-bluetooth-50-waterproof-tws-1200mah-f11.jpg"
+    ],
+    "createdAt": "2024-06-08T10:00:00.000Z",
+    "updatedAt": "2024-06-08T10:00:00.000Z"
+  },
+  {
+    "name": "Designer Coffee Table",
+    "slug": "designer-coffee-table",
+    "description": "Add elegance to your living room with the Designer Coffee Table. Featuring a contemporary design with premium materials.",
+    "excerpt": "Perfect blend of style and functionality.",
+    "price": 499,
+    "tags": ["furniture", "coffee table", "living room"],
+    "thumbnail": "https://static.dezeen.com/uploads/2022/02/spirit-coffee-table-monogram-galerie-revel-design_dezeen_2364_sq-411x411.jpg",
+    "images": [
+      "https://static.dezeen.com/uploads/2022/02/spirit-coffee-table-monogram-galerie-revel-design_dezeen_2364_sq-411x411.jpg",
+      "https://www.bentleydesigns.com/images/products/standard/3220_17118.jpg"
+    ],
+    "createdAt": "2024-06-09T10:00:00.000Z",
+    "updatedAt": "2024-06-09T10:00:00.000Z"
+  },
+  {
+    "name": "Robot Vacuum Cleaner",
+    "slug": "robot-vacuum-cleaner",
+    "description": "Keep your home spotless with the Robot Vacuum Cleaner. Advanced cleaning technology with smart navigation for efficient cleaning.",
+    "excerpt": "Effortless cleaning solution.",
+    "price": 399,
+    "tags": ["electronics", "vacuum cleaner", "home appliances"],
+    "thumbnail": "https://images-cdn.ubuy.co.id/633b9d3670bc5b1a3d71b3a4-enther-robot-vacuum-cleaner-robotic.jpg",
+    "images": [
+      "https://images-cdn.ubuy.co.id/633b9d3670bc5b1a3d71b3a4-enther-robot-vacuum-cleaner-robotic.jpg",
+      "https://cdn.eraspace.com/pub/media/mageplaza/blog/post/e/z/ezgif-5-83871f197c.jpg"
+    ],
+    "createdAt": "2024-06-10T10:00:00.000Z",
+    "updatedAt": "2024-06-10T10:00:00.000Z"
+  },
+  {
+    "name": "Wireless Earbuds Pro",
+    "slug": "wireless-earbuds-pro",
+    "description": "Enjoy superior sound quality with the Wireless Earbuds Pro. Featuring noise cancellation and ergonomic design for all-day comfort.",
+    "excerpt": "Immerse yourself in music.",
+    "price": 149,
+    "tags": ["electronics", "earbuds", "audio"],
+    "thumbnail": "https://i.ebayimg.com/images/g/SbAAAOSwaIdkObV3/s-l1600.jpg",
+    "images": [
+      "https://i.ebayimg.com/images/g/SbAAAOSwaIdkObV3/s-l1600.jpg",
+      "https://www.greenlion.net/web/image/product.product/3837/image_1024/%5BGNTWSPRO2BK%5D%20True%20Wireless%20Earbuds%20Pro%202%20%28%E2%80%8BBlack%29?unique=906cc4b"
+    ],
+    "createdAt": "2024-06-11T10:00:00.000Z",
+    "updatedAt": "2024-06-11T10:00:00.000Z"
+  },
+  {
+    "name": "Modern Dining Chair Set",
+    "slug": "modern-dining-chair-set",
+    "description": "Upgrade your dining area with the Modern Dining Chair Set. Stylish and comfortable chairs crafted from durable materials.",
+    "excerpt": "Perfect blend of form and function.",
+    "price": 399,
+    "tags": ["furniture", "dining chair", "dining room"],
+    "thumbnail": "https://m.media-amazon.com/images/I/81kO4OGhorL._AC_UF894,1000_QL80_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/81kO4OGhorL._AC_UF894,1000_QL80_.jpg",
+      "https://i5.walmartimages.com/asr/4b2a3a99-cae0-4f26-83c1-5f2c419b9f63_2.cfcbb421b283623bb02b1b045bc05621.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+    ],
+    "createdAt": "2024-06-12T10:00:00.000Z",
+    "updatedAt": "2024-06-12T10:00:00.000Z"
+  },
+  {
+    "name": "Digital Camera XYZ",
+    "slug": "digital-camera-xyz",
+    "description": "Capture every moment with precision using the Digital Camera XYZ. Featuring high-resolution images and advanced shooting modes.",
+    "excerpt": "Explore your creativity.",
+    "price": 899,
+    "tags": ["electronics", "camera", "photography"],
+    "thumbnail": "https://images.jdmagicbox.com/quickquotes/images_main/-3dqq8dcg.jpg",
+    "images": [
+      "https://images.jdmagicbox.com/quickquotes/images_main/-3dqq8dcg.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_tNXxIWzuOG23o3qZRoJDk8V5t-nkXpix-wWVplutIwcieT-bEmUDB4MKVQDvfzwbICs&usqp=CAU"
+    ],
+    "createdAt": "2024-06-13T10:00:00.000Z",
+    "updatedAt": "2024-06-13T10:00:00.000Z"
+  },
+  {
+    "name": "Mid-Century Modern Desk",
+    "slug": "mid-century-modern-desk",
+    "description": "Enhance your workspace with the Mid-Century Modern Desk. Featuring sleek design and functional storage options.",
+    "excerpt": "A stylish addition to any office.",
+    "price": 599,
+    "tags": ["furniture", "office desk", "workspace"],
+    "thumbnail": "https://images-cdn.ubuy.co.id/6368198b42f1e5705f44b285-artswish-office-desk-mid-century-modern.jpg",
+    "images": [
+      "https://images-cdn.ubuy.co.id/6368198b42f1e5705f44b285-artswish-office-desk-mid-century-modern.jpg",
+      "https://hulalahome.com/cdn/shop/files/DKHM0795-WAL_1.jpg?v=1718155853"
+    ],
+    "createdAt": "2024-06-14T10:00:00.000Z",
+    "updatedAt": "2024-06-14T10:00:00.000Z"
+  },
+  {
+    "name": "Smart Home Security System",
+    "slug": "smart-home-security-system",
+    "description": "Protect your home with the Smart Home Security System. Monitor and control your security devices from anywhere with ease.",
+    "excerpt": "Peace of mind, wherever you are.",
+    "price": 499,
+    "tags": ["electronics", "security system", "home automation"],
+    "thumbnail": "https://i.pcmag.com/imagery/roundups/07jY7PeJrdH0O8g0jl4YQ0U-32..v1601059540.jpg",
+    "images": [
+      "https://i.pcmag.com/imagery/roundups/07jY7PeJrdH0O8g0jl4YQ0U-32..v1601059540.jpg",
+      "https://eplouisiana.com/images/easyblog_articles/118/how-a-smart-home-security-system-gives-you-peace-of-mind.jpg"
+    ],
+    "createdAt": "2024-06-15T10:00:00.000Z",
+    "updatedAt": "2024-06-15T10:00:00.000Z"
+  },
+  {
+    "name": "Vintage Armchair",
+    "slug": "vintage-armchair",
+    "description": "Add a touch of nostalgia with the Vintage Armchair. Classic design with comfortable upholstery for relaxation.",
+    "excerpt": "Timeless elegance.",
+    "price": 799,
+    "tags": ["furniture", "armchair", "living room"],
+    "thumbnail": "https://www.locatetocreate.com/cdn/shop/products/328-NELSON_Vintage_Armchair.jpg?v=1579296469",
+    "images": [
+      "https://www.locatetocreate.com/cdn/shop/products/328-NELSON_Vintage_Armchair.jpg?v=1579296469",
+      "https://images.squarespace-cdn.com/content/v1/586d82a046c3c40a1c574fd3/1586299692746-98A47YD8OGD9LOOKAG8N/HB%26Co%2B_%2BJames%2BStewart43779%281%29.jpg?format=1000w"
+    ],
+    "createdAt": "2024-06-16T10:00:00.000Z",
+    "updatedAt": "2024-06-16T10:00:00.000Z"
+  },
+  {
+    "name": "Wireless Charging Pad",
+    "slug": "wireless-charging-pad",
+    "description": "Charge your devices wirelessly with the Wireless Charging Pad. Sleek design with fast charging capabilities.",
+    "excerpt": "Convenient charging solution.",
+    "price": 49,
+    "tags": ["electronics", "charging pad", "mobile accessories"],
+    "thumbnail": "https://baseusindonesia.com/cdn/shop/products/KiipBaseusBK_2048x2048.png?v=1672223746",
+    "images": [
+      "https://baseusindonesia.com/cdn/shop/products/KiipBaseusBK_2048x2048.png?v=1672223746",
+      "https://www.cnet.com/a/img/resize/8dfd582b861be518dcb968d1f1b6de01ef114961/hub/2023/02/28/9da2e9c7-d07d-45cb-89d1-18c7013249e5/anker-315-wireless-charger.png?auto=webp&fit=crop&height=900&width=1200"
+    ],
+    "createdAt": "2024-06-17T10:00:00.000Z",
+    "updatedAt": "2024-06-17T10:00:00.000Z"
+  },
+  {
+    "name": "Retro Record Player",
+    "slug": "retro-record-player",
+    "description": "Experience vintage sound with the Retro Record Player. Play your favorite vinyl records with modern technology.",
+    "excerpt": "Nostalgic music experience.",
+    "price": 299,
+    "tags": ["electronics", "record player", "audio"],
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsw-n6dYrwVHpko3CRlwSRTPJHlzBa7hBY6Q&s",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsw-n6dYrwVHpko3CRlwSRTPJHlzBa7hBY6Q&s",
+      "https://sp.apolloboxassets.com/vendor/product/productImages/2021-11-11/Pr3pbArray_14.jpg"
+    ],
+    "createdAt": "2024-06-18T10:00:00.000Z",
+    "updatedAt": "2024-06-18T10:00:00.000Z"
+  },
+  {
+    "name": "Modern Bookshelf",
+    "slug": "modern-bookshelf",
+    "description": "Organize your books with the Modern Bookshelf. Sleek design with adjustable shelves for customized storage.",
+    "excerpt": "Display your literary collection.",
+    "price": 349,
+    "tags": ["furniture", "bookshelf", "home decor"],
+    "thumbnail": "https://m.media-amazon.com/images/I/81+M-GvWk8L._AC_UF894,1000_QL80_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/81+M-GvWk8L._AC_UF894,1000_QL80_.jpg",
+      "https://i5.walmartimages.com/seo/Mainstays-Modern-8-Cube-Bookcase-Espresso_76a629fd-f58a-4f80-b64e-a13c61798eee.9e41064ad25185036d3ee704829d8564.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+    ],
+    "createdAt": "2024-06-19T10:00:00.000Z",
+    "updatedAt": "2024-06-19T10:00:00.000Z"
+  },
+  {
+    "name": "Wireless Noise-Cancelling Headphones",
+    "slug": "wireless-noise-cancelling-headphones",
+    "description": "Immerse yourself in music with the Wireless Noise-Cancelling Headphones. Experience crystal-clear sound and enhanced comfort.",
+    "excerpt": "Escape into your own world.",
+    "price": 249,
+    "tags": ["electronics", "headphones", "audio"],
+    "thumbnail": "https://cdn.thewirecutter.com/wp-content/media/2023/09/noise-cancelling-headphone-2048px-0876.jpg",
+    "images": [
+      "https://cdn.thewirecutter.com/wp-content/media/2023/09/noise-cancelling-headphone-2048px-0876.jpg",
+      "https://m.media-amazon.com/images/I/51NC9ErIQtL.jpg"
+    ],
+    "createdAt": "2024-06-20T10:00:00.000Z",
+    "updatedAt": "2024-06-20T10:00:00.000Z"
+  }
+]
