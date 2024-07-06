@@ -28,36 +28,38 @@ type MongoProductModel = Omit<ProductModel, '_id'> & { _id: ObjectId };
 
 export const getProducts = async (skip = 0, limit = 8): Promise<ProductModel[]> => {
   const db = await getDb();
-  const products: MongoProductModel[] = await db.collection(COLLECTION_PRODUCTS)
+  const products = await db.collection(COLLECTION_PRODUCTS)
     .find()
     .skip(skip)
     .limit(limit)
     .toArray();
+
   return products.map((product) => ({
     ...product,
-    _id: product._id.toString(), // Convert ObjectId to string
-  }));
+    _id: (product._id as ObjectId).toString(),
+  })) as ProductModel[];
 };
 
 export const getProductBySlug = async (slug: string): Promise<ProductModel | null> => {
   const db = await getDb();
-  const product: MongoProductModel | null = await db.collection(COLLECTION_PRODUCTS).findOne({ slug });
+  const product = await db.collection(COLLECTION_PRODUCTS).findOne({ slug });
   if (!product) return null;
   return {
     ...product,
-    _id: product._id.toString(), 
-  };
+    _id: (product._id as ObjectId).toString(), 
+  } as ProductModel;
 };
 
 export const searchProductsByName = async (query: string, skip = 0, limit = 8): Promise<ProductModel[]> => {
   const db = await getDb();
-  const products: MongoProductModel[] = await db.collection(COLLECTION_PRODUCTS)
+  const products = await db.collection(COLLECTION_PRODUCTS)
     .find({ name: { $regex: query, $options: 'i' } })
     .skip(skip)
     .limit(limit)
     .toArray();
+
   return products.map((product) => ({
     ...product,
-    _id: product._id.toString(),
-  }));
+    _id: (product._id as ObjectId).toString(),
+  })) as ProductModel[];
 };

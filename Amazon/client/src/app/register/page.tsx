@@ -3,6 +3,8 @@ import Link from "next/link";
 import { handleSubmit } from "./action";
 import ClientFlashComponent from "@/components/ClientFlashComponent";
 
+export const dynamic = 'force-dynamic';
+
 export default function Register() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">

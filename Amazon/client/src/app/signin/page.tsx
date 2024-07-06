@@ -1,7 +1,9 @@
-import AmazonLogo from "@/assets/amazon_logo_white.svg"
+import AmazonLogo from "@/assets/amazon_logo_white.svg";
 import Link from "next/link";
 import { signin } from "./action";
 import ClientFlashComponent from "@/components/ClientFlashComponent";
+
+export const dynamic = 'force-dynamic';
 
 export default function SignIn() {
   return (
@@ -58,7 +60,7 @@ export default function SignIn() {
         </form>
         <div className="text-center">
           <p className="text-sm text-gray-600">
-            By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.
+            By continuing, you agree to Amazon&apos;s Conditions of Use and Privacy Notice.
           </p>
         </div>
         <div className="text-center">

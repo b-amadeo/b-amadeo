@@ -22,7 +22,6 @@ export const signin = async (formData: FormData) => {
   });
 
   if (!parsedData.success) {
-    // const errPath = parsedData.error.issues[0].path[0];
     const errMessage = parsedData.error.issues[0].message;
     const errFinalMessage = `${errMessage}`;
 
@@ -46,7 +45,6 @@ export const signin = async (formData: FormData) => {
   cookies().set("access_token", access_token, {
     httpOnly: true,
     secure: false,
-    // expires: new Date(Date.now() + 1000 * 60 * 60),
     sameSite: "strict",
   });
 

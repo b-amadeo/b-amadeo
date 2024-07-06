@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import ImageGallery from "@/components/ImageGallery";
 import ClientFlashComponent from "@/components/ClientFlashComponent";
 import AddToWishlistButton from "@/components/AddToWishlistButton";
+import { ObjectId } from "mongodb";
 
 type ProductDetailProps = {
   params: {
@@ -57,7 +58,7 @@ export default async function ProductDetail({ params }: ProductDetailProps) {
               </div>
               <ClientFlashComponent />
               <div className="mt-4">
-                <AddToWishlistButton productId={product._id} slug={params.slug} />
+                <AddToWishlistButton productId={new ObjectId(product._id)} slug={params.slug} />
               </div>
             </div>
           </div>
