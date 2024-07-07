@@ -12,7 +12,7 @@ export const middleware = async (request: NextRequest) => {
   ) {
     console.log(request.method, request.url);
   }
-  
+
   if (request.url.includes("/api/users")) {
     return NextResponse.next();
   }
@@ -20,20 +20,18 @@ export const middleware = async (request: NextRequest) => {
   if (request.url.includes("/api")) {
     const cookiesStore = cookies();
     const access_token = cookiesStore.get("access_token");
-    
+
     if (!access_token) {
-        return NextResponse.json({
-            statusCode: 401,
-            error: "Unauthorized",
-        });
+      return NextResponse.json({
+        statusCode: 401,
+        error: "Unauthorized",
+      });
     }
-    
-    const tokenData = await readPayloadJose<{ id: string; email: string }>(
-        access_token.value
-    );
-    
+
+    const tokenData = await readPayloadJose(access_token.value);
+
     const requestHeaders = new Headers(request.headers);
-    
+
     requestHeaders.set("user_id", tokenData.id);
     requestHeaders.set("user_email", tokenData.email);
 

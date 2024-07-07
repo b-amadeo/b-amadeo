@@ -39,7 +39,7 @@ const Navbar = () => {
           />
         </Link>
       </div>
-      <Searchbar />
+      <Searchbar isLoggedIn={isLoggedIn} />
       <div className="flex items-center gap-4 whitespace-nowrap">
         {isLoggedIn ? (
           <>

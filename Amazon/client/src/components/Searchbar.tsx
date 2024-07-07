@@ -2,15 +2,27 @@
 
 import React, { useState, useEffect } from "react";
 import { useSearchParams, usePathname, useRouter } from "next/navigation";
-import { useDebouncedCallback } from 'use-debounce';
+import { useDebouncedCallback } from "use-debounce";
 
-export default function Searchbar() {
+interface SearchbarProps {
+  isLoggedIn: boolean;
+}
+
+export default function Searchbar({ isLoggedIn }: SearchbarProps) {
   const [results, setResults] = useState([]);
+  const [error, setError] = useState<string | null>(null);
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const { replace } = useRouter();
 
   const handleSearch = useDebouncedCallback(async (term: string) => {
+    if (!isLoggedIn) {
+      setError("Please Login First");
+      setResults([]);
+      return;
+    }
+
+    setError(null);
     const params = new URLSearchParams(searchParams);
     if (term) {
       params.set("query", term);
@@ -21,7 +33,9 @@ export default function Searchbar() {
 
     if (term) {
       try {
-        const response = await fetch(process.env.NEXT_PUBLIC_BASE_URL + `/api/products?query=${encodeURIComponent(term)}`);
+        const response = await fetch(
+          `${process.env.NEXT_PUBLIC_BASE_URL}/api/products?query=${encodeURIComponent(term)}`
+        );
         if (!response.ok) {
           throw new Error(`Error: ${response.status}`);
         }
@@ -43,13 +57,19 @@ export default function Searchbar() {
           type="text"
           placeholder="Search Amazon"
           onChange={(e) => handleSearch(e.target.value)}
-          defaultValue={searchParams.get('query')?.toString()}
+          defaultValue={searchParams.get("query")?.toString()}
           className="p-1 text-black rounded w-96"
+          disabled={!isLoggedIn}
         />
       </div>
+      {error && (
+        <div className="flex w-full justify-center mt-2 text-red-500">
+          {error}
+        </div>
+      )}
       <div className="flex w-full justify-center mt-2">
         <ul className="w-96">
-          {results.map((product: any) => (
+          {results?.map((product: any) => (
             <li key={product._id} className="p-2 border-b border-gray-300">
               <a href={`/products/${product.slug}`} className="text-white">
                 {product.name}

@@ -13,8 +13,8 @@ export const signin = async (formData: FormData) => {
     password: z.string().nonempty({ message: "Password is required" })
   });
 
-  const email = formData.get("email");
-  const password = formData.get("password");
+  const email = formData.get("email")?.toString() || '';
+  const password = formData.get("password")?.toString() || '';
 
   const parsedData = signinInputSchema.safeParse({
     email,
@@ -35,12 +35,12 @@ export const signin = async (formData: FormData) => {
   }
 
   const payload = {
-    id: user._id,
+    id: user._id.toString(),
     name: user.name,
     email: user.email,
   };
 
-  const access_token = createToken(payload);
+  const access_token = await createToken(payload);
 
   cookies().set("access_token", access_token, {
     httpOnly: true,
