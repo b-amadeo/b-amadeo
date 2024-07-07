@@ -9,7 +9,7 @@ type MyResponse<T> = {
 };
 
 export const handleSubmit = async (formData: FormData) => {
-  const response = await fetch(process.env.NEXT_PUBLIC_BASE_URL + "/api/users", {
+  const response = await fetch("./api/users", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

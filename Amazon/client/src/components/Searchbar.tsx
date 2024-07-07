@@ -34,7 +34,7 @@ export default function Searchbar({ isLoggedIn }: SearchbarProps) {
     if (term) {
       try {
         const response = await fetch(
-          `${process.env.NEXT_PUBLIC_BASE_URL}/api/products?query=${encodeURIComponent(term)}`
+          `./api/products?query=${encodeURIComponent(term)}`
         );
         if (!response.ok) {
           throw new Error(`Error: ${response.status}`);

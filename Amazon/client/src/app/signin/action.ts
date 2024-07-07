@@ -25,13 +25,13 @@ export const signin = async (formData: FormData) => {
     const errMessage = parsedData.error.issues[0].message;
     const errFinalMessage = `${errMessage}`;
 
-    return redirect(process.env.NEXT_PUBLIC_BASE_URL + `/signin?error=${errFinalMessage}`);
+    return redirect(`./signin?error=${errFinalMessage}`);
   }
 
   const user = await getUserByEmail(parsedData.data.email);
 
   if (!user || !compareTextWithHash(parsedData.data.password, user.password)) {
-    return redirect(process.env.NEXT_PUBLIC_BASE_URL + `/signin?error=Invalid%20email/password`);
+    return redirect(`./signin?error=Invalid%20email/password`);
   }
 
   const payload = {

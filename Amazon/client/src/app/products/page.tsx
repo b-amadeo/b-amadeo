@@ -5,7 +5,7 @@ import ProductCards from "@/components/ProductCards";
 import { ProductModel } from "@/db/models/product";
 
 const fetchProducts = async (page: number, limit: number): Promise<ProductModel[]> => {
-    const response = await fetch(process.env.NEXT_PUBLIC_BASE_URL + `/api/products?page=${page}&limit=${limit}`);
+    const response = await fetch(`./api/products?page=${page}&limit=${limit}`);
     if (!response.ok) {
       throw new Error("Failed to fetch products");
     }
